@@ -215,12 +215,13 @@
 _用户中心尚未开发，解释文档将在后续进行更新 Default changes will be obtained in later versions v2.0.0_\
 \
 Valid options:\
-\
+
 
 > - `个人简介` - 
 > - `基本设置` - 
 > - `安全设置` - 
 > - `账户绑定` - 
+
 
 
 ## JSX Brackets
