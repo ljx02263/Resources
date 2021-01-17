@@ -190,7 +190,7 @@
 > - `<浮动框体 - 移入>` - 当鼠标位于`Markers`上时，浮动框体将展示有关于该地的统计信息，包括：`省份`、`市区`、`县级地区`、最近最新一次围绕该地的`地震事件`，其`时间`、`震级`、`震源深度`，最后还包括其近年来统计发生过的`地震次数`。
 > - `<浮动框体 - 移出>` - 当鼠标离开对应`Markers`时，浮动框体将自动消失
 
-## 地址详情\
+## 地址详情
 
 \
 `地址详情`围绕地图标注进行地点事件展示，我们通过统计、排序该地的近期地震事件，以`时间线`形式罗列出该地的所有地震，以保证使用者能够`举一反三`浏览到更多相关信息；\
@@ -212,23 +212,18 @@
 ## 用户个人中心 - Personal Center
 
 \
-_Default value changed from `none` to `es5` in v2.0.0_\
-\
-Print trailing commas wherever possible when multi-line. (A single-line array, for example, never gets trailing commas.)\
+_用户中心尚未开发，解释文档将在后续进行更新 Default changes will be obtained in later versions v2.0.0_\
 \
 Valid options:\
 \
 
-- `"es5"` - Trailing commas where valid in ES5 (objects, arrays, etc.)\
-- `"none"` - No trailing commas.\
-- `"all"` - Trailing commas wherever possible (including [trailing commas in function parameter lists and calls](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas#Trailing_commas_in_functions)). This requires node 8 or a modern browser that supports ES2017 or transform with [babel](https://babeljs.io/docs/en/index).\
-  \
-  | Default | CLI Override | API Override |\
-  | ------- | ------------------------------------------------------ | ------------------------------------------------------ |\
-  | `"es5"` | <code>--trailing-comma <es5&#124;none&#124;all></code> | <code>trailingComma: "<es5&#124;none&#124;all>"</code> |\
-  \
+> - `个人简介` - 
+> - `基本设置` - 
+> - `安全设置` - 
+> - `账户绑定` - 
 
-## JSX Brackets\
+
+## JSX Brackets
 
 \
 Put the `>` of a multi-line JSX element at the end of the last line instead of being alone on the next line (does not apply to self closing elements).\
