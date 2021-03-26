@@ -222,10 +222,3 @@ Valid options:\
 > - `安全设置` - 
 > - `账户绑定` - 
 
-
-
-## JSX Brackets
-| -------- | ------------------------------------ | ----------------------------------- |\
-| `"auto"` | `--embedded-language-formatting=off` | `embeddedLanguageFormatting: "off"` |\
-}
-````
